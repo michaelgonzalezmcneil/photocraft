@@ -6,6 +6,16 @@ code and original assets are MIT OR Apache-2.0 (see [`LICENSE-MIT`](LICENSE-MIT)
 in the same change; third-party assets must be permissively licensed and keep their license file
 next to them.
 
+## Loomwell workflow add-on
+
+| Path | Title | Author | Source | License |
+|---|---|---|---|---|
+| `loomwell/templates/*.{pcraft,png,webp,recipe.json}` | Loomwell website, landscape social and square compositions; original woven geometry and editable type | Loomwell, with OpenAI Codex assistance | Original work, generated through PhotoCraft by `loomwell/export.py`; no third-party imagery | MIT OR Apache-2.0 |
+| `loomwell/{brand.json,content.json,content.example.json,pack.json}`, `loomwell/templates/{loomwell.aco,manifest.json}`, `loomwell/presets/*.json` | Loomwell palette, original example copy, document metadata and image preparation actions | Loomwell, with OpenAI Codex assistance | Original work; colors supplied for the Loomwell workflow | MIT OR Apache-2.0 |
+
+The add-on uses PhotoCraft's existing Inter font through its type engine; it adds no font files.
+The generated documents and previews contain no customer data or claimed measured performance.
+
 ## Bundled in the app
 
 | Path | Title | Author | Source | License |

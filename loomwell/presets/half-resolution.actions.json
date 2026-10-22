@@ -1,0 +1,9 @@
+[
+  {
+    "command": "image.imageSize",
+    "params": {
+      "percent": 50,
+      "resample": "lanczos"
+    }
+  }
+]

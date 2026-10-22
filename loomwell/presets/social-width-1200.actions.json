@@ -1,0 +1,9 @@
+[
+  {
+    "command": "image.imageSize",
+    "params": {
+      "width": 1200,
+      "resample": "lanczos"
+    }
+  }
+]

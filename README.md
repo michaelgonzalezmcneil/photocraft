@@ -9,6 +9,8 @@
 
 <h1 align="center">PhotoCraft</h1>
 
+The [Loomwell workflow pack](loomwell/README.md) adds editable branded website and social templates, reusable swatches, image preparation presets and local export commands.
+
 <p align="center">
   <b>Image editing; an open-source, clean-room reimplementation of Adobe Photoshop, rebuilt in pure Rust.</b><br>
   Layers, masks, adjustment layers, layer styles, type, vectors, brushes and real PSD files,<br>

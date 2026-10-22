@@ -1,0 +1,756 @@
+{
+  "template": "square",
+  "canvas": [
+    1080,
+    1080
+  ],
+  "safe_image_slot": [
+    280,
+    500,
+    520,
+    410
+  ],
+  "commands": [
+    {
+      "command": "swatches.add",
+      "params": {
+        "color": "#182822",
+        "name": "Loomwell Forest",
+        "group": "Loomwell"
+      }
+    },
+    {
+      "command": "swatches.add",
+      "params": {
+        "color": "#f5f2e9",
+        "name": "Loomwell Paper",
+        "group": "Loomwell"
+      }
+    },
+    {
+      "command": "swatches.add",
+      "params": {
+        "color": "#d5e5b3",
+        "name": "Loomwell Sage",
+        "group": "Loomwell"
+      }
+    },
+    {
+      "command": "swatches.add",
+      "params": {
+        "color": "#b86e4d",
+        "name": "Loomwell Terracotta",
+        "group": "Loomwell"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          0,
+          0,
+          1080,
+          1080
+        ],
+        "radii": 0,
+        "fill": "#f5f2e9",
+        "stroke": null,
+        "name": "Background / paper"
+      }
+    },
+    {
+      "command": "type.create",
+      "params": {
+        "name": "Brand / wordmark",
+        "x": 54,
+        "y": 82,
+        "text": "loomwell",
+        "size": 48,
+        "font": "Inter",
+        "color": "#182822"
+      }
+    },
+    {
+      "command": "type.setStyle",
+      "params": {
+        "weight": 500,
+        "tracking": -35
+      }
+    },
+    {
+      "command": "type.create",
+      "params": {
+        "name": "Copy / eyebrow",
+        "x": 54,
+        "y": 162,
+        "text": "ECOMMERCE AGENT EXPERIENCE",
+        "size": 13,
+        "font": "Inter",
+        "color": "#b86e4d"
+      }
+    },
+    {
+      "command": "type.create",
+      "params": {
+        "name": "Copy / headline 1",
+        "x": 51,
+        "y": 262,
+        "text": "Useful work.",
+        "size": 66,
+        "font": "Inter",
+        "color": "#182822"
+      }
+    },
+    {
+      "command": "type.setStyle",
+      "params": {
+        "weight": 500,
+        "tracking": -35
+      }
+    },
+    {
+      "command": "type.create",
+      "params": {
+        "name": "Copy / headline 2",
+        "x": 51,
+        "y": 346,
+        "text": "Valuable experience.",
+        "size": 66,
+        "font": "Inter",
+        "color": "#182822"
+      }
+    },
+    {
+      "command": "type.setStyle",
+      "params": {
+        "weight": 500,
+        "tracking": -35
+      }
+    },
+    {
+      "command": "type.create",
+      "params": {
+        "name": "Copy / description 1",
+        "x": 54,
+        "y": 427,
+        "text": "Reviewed ecommerce agent traces",
+        "size": 24,
+        "font": "Inter",
+        "color": "#56645a"
+      }
+    },
+    {
+      "command": "type.create",
+      "params": {
+        "name": "Copy / description 2",
+        "x": 54,
+        "y": 463,
+        "text": "for AI training and evaluation.",
+        "size": 24,
+        "font": "Inter",
+        "color": "#56645a"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          379.44820512820513,
+          584.4900568810501,
+          30.94974358974359,
+          241.01988623789987
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / warp 1"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          427.8071794871795,
+          543.0876830015942,
+          30.94974358974359,
+          323.8246339968116
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / warp 2"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          476.16615384615386,
+          522.705267221052,
+          30.94974358974359,
+          364.589465557896
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / warp 3"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          524.5251282051282,
+          516.4,
+          30.94974358974359,
+          377.2
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / warp 4"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          572.8841025641026,
+          522.705267221052,
+          30.94974358974359,
+          364.589465557896
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / warp 5"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          621.243076923077,
+          543.0876830015942,
+          30.94974358974359,
+          323.8246339968116
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / warp 6"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          669.6020512820513,
+          584.4900568810501,
+          30.94974358974359,
+          241.01988623789987
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / warp 7"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          419.49005688105007,
+          544.4482051282051,
+          241.01988623789987,
+          30.94974358974359
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#d5e5b3",
+        "stroke": null,
+        "name": "Artwork / weft 1"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          378.0876830015942,
+          592.8071794871795,
+          323.8246339968116,
+          30.94974358974359
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#d5e5b3",
+        "stroke": null,
+        "name": "Artwork / weft 2"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          357.705267221052,
+          641.1661538461539,
+          364.589465557896,
+          30.94974358974359
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#d5e5b3",
+        "stroke": null,
+        "name": "Artwork / weft 3"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          351.4,
+          689.5251282051282,
+          377.2,
+          30.94974358974359
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#b86e4d",
+        "stroke": null,
+        "name": "Artwork / weft 4"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          357.705267221052,
+          737.8841025641026,
+          364.589465557896,
+          30.94974358974359
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#d5e5b3",
+        "stroke": null,
+        "name": "Artwork / weft 5"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          378.0876830015942,
+          786.243076923077,
+          323.8246339968116,
+          30.94974358974359
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#d5e5b3",
+        "stroke": null,
+        "name": "Artwork / weft 6"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "roundedRect",
+        "rect": [
+          419.49005688105007,
+          834.6020512820513,
+          241.01988623789987,
+          30.94974358974359
+        ],
+        "radii": 12.998892307692307,
+        "fill": "#d5e5b3",
+        "stroke": null,
+        "name": "Artwork / weft 7"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          379.44820512820513,
+          640.1661538461539,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 1-3"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          379.44820512820513,
+          736.8841025641026,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 1-5"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          427.8071794871795,
+          591.8071794871795,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 2-2"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          427.8071794871795,
+          688.5251282051282,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 2-4"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          427.8071794871795,
+          785.243076923077,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 2-6"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          476.16615384615386,
+          543.4482051282051,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 3-1"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          476.16615384615386,
+          640.1661538461539,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 3-3"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          476.16615384615386,
+          736.8841025641026,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 3-5"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          476.16615384615386,
+          833.6020512820513,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 3-7"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          524.5251282051282,
+          591.8071794871795,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 4-2"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          524.5251282051282,
+          688.5251282051282,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 4-4"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          524.5251282051282,
+          785.243076923077,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 4-6"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          572.8841025641026,
+          543.4482051282051,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 5-1"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          572.8841025641026,
+          640.1661538461539,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 5-3"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          572.8841025641026,
+          736.8841025641026,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 5-5"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          572.8841025641026,
+          833.6020512820513,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 5-7"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          621.243076923077,
+          591.8071794871795,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 6-2"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          621.243076923077,
+          688.5251282051282,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 6-4"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          621.243076923077,
+          785.243076923077,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 6-6"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          669.6020512820513,
+          640.1661538461539,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 7-3"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          669.6020512820513,
+          736.8841025641026,
+          30.94974358974359,
+          32.94974358974359
+        ],
+        "radii": 0,
+        "fill": "#182822",
+        "stroke": null,
+        "name": "Artwork / overpass 7-5"
+      }
+    },
+    {
+      "command": "shape.create",
+      "params": {
+        "kind": "rect",
+        "rect": [
+          54,
+          988,
+          972,
+          1
+        ],
+        "radii": 0,
+        "fill": "#c5cebe",
+        "stroke": null,
+        "name": "Footer / rule"
+      }
+    },
+    {
+      "command": "type.create",
+      "params": {
+        "name": "Footer / status",
+        "x": 54,
+        "y": 1023,
+        "text": "EARLY PILOT / LOOMWELL",
+        "size": 12,
+        "font": "Inter",
+        "color": "#56645a"
+      }
+    },
+    {
+      "command": "type.create",
+      "params": {
+        "name": "Footer / dimensions",
+        "x": 886,
+        "y": 1023,
+        "text": "1080 \u00d7 1080",
+        "size": 12,
+        "font": "Inter",
+        "color": "#56645a"
+      }
+    }
+  ]
+}

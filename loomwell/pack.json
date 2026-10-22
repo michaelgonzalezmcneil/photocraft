@@ -1,0 +1,15 @@
+{
+  "tool": "photocraft",
+  "name": "Loomwell PhotoCraft workflow pack",
+  "version": 1,
+  "palette": "brand.json",
+  "importable_palette": "templates/loomwell.aco",
+  "content": "content.json",
+  "templates": {
+    "website": {"width": 1600, "height": 900, "native": "templates/website.pcraft", "image_slot": [950, 190, 560, 560]},
+    "social": {"width": 1200, "height": 630, "native": "templates/social.pcraft", "image_slot": [850, 136, 286, 286]},
+    "square": {"width": 1080, "height": 1080, "native": "templates/square.pcraft", "image_slot": [280, 500, 520, 410]}
+  },
+  "exports": ["pcraft", "png", "webp"],
+  "content_status": "Original Loomwell brand templates; no customer data or measured performance claim"
+}

@@ -1,0 +1,213 @@
+{
+  "tool": "photocraft",
+  "renderer": "photocraft-cli 0.12.0 (dev build)",
+  "brand": {
+    "forest": "#182822",
+    "paper": "#f5f2e9",
+    "sage": "#d5e5b3",
+    "terracotta": "#b86e4d"
+  },
+  "content": {
+    "eyebrow": "ECOMMERCE AGENT EXPERIENCE",
+    "headline": [
+      "Useful work.",
+      "Valuable experience."
+    ],
+    "button": "Explore the pilot",
+    "footer": "EARLY PILOT / LOOMWELL",
+    "subheadline": [
+      "Reviewed ecommerce agent traces",
+      "for AI training and evaluation."
+    ]
+  },
+  "templates": {
+    "website": {
+      "canvas": [
+        1600,
+        900
+      ],
+      "image_slot": [
+        950,
+        190,
+        560,
+        560
+      ],
+      "layer_count": 49,
+      "files": {
+        "website.pcraft": {
+          "sha256": "93f93c4e419330c946e9aaa657f5c6653aa558de6b1997a6f3eb6ece1f536d7b",
+          "bytes": 462905,
+          "width": 1600,
+          "height": 900
+        },
+        "website.png": {
+          "sha256": "49c1aa5a37d26fc2815c17b551e27aa4740005dd602dc6defcd25ff07da094ab",
+          "bytes": 74605,
+          "width": 1600,
+          "height": 900
+        },
+        "website.webp": {
+          "sha256": "87cf7ab1f87062bf7b16f8608526378374e3f3ff7fd85ad6656b62fc88897417",
+          "bytes": 52778,
+          "width": 1600,
+          "height": 900
+        },
+        "website.recipe.json": {
+          "sha256": "07b477fc75d6142bcb7cf0f8cc5e8d4331dc48a567771fda41df1040d5cd58d1",
+          "bytes": 17263
+        }
+      }
+    },
+    "social": {
+      "canvas": [
+        1200,
+        630
+      ],
+      "image_slot": [
+        850,
+        136,
+        286,
+        286
+      ],
+      "layer_count": 46,
+      "files": {
+        "social.pcraft": {
+          "sha256": "f7ae5bf2d19126912709ab16b7e472f15586bb4950721808d5a2db3f0f15f487",
+          "bytes": 394636,
+          "width": 1200,
+          "height": 630
+        },
+        "social.png": {
+          "sha256": "14a6fb293b969e6b891e88aea65a54bac755602d996c6fb2de16b9c52a2c3e93",
+          "bytes": 53945,
+          "width": 1200,
+          "height": 630
+        },
+        "social.webp": {
+          "sha256": "b6dfb8221eab980b596e75e23a02de02471592eefdb7eb6b187e0e35b3968a7c",
+          "bytes": 39482,
+          "width": 1200,
+          "height": 630
+        },
+        "social.recipe.json": {
+          "sha256": "fc62a9f1a67a2342add6d45bbb02eb6a45171ab58405d0a63c7e937838cae629",
+          "bytes": 16119
+        }
+      }
+    },
+    "square": {
+      "canvas": [
+        1080,
+        1080
+      ],
+      "image_slot": [
+        280,
+        500,
+        520,
+        410
+      ],
+      "layer_count": 46,
+      "files": {
+        "square.pcraft": {
+          "sha256": "2e0c0f8290940e11207a19b81e12177a032d825521af4e9622c1f9f93fea7193",
+          "bytes": 422690,
+          "width": 1080,
+          "height": 1080
+        },
+        "square.png": {
+          "sha256": "6c2f00c416c5897ad2d20d9136ab8d82bb7d637b0075e2e72e18992e8032752a",
+          "bytes": 63895,
+          "width": 1080,
+          "height": 1080
+        },
+        "square.webp": {
+          "sha256": "b0f1a682ec1981c11279db8c20fe90bda6fa3a53d17dc3103da115d551e9e287",
+          "bytes": 46318,
+          "width": 1080,
+          "height": 1080
+        },
+        "square.recipe.json": {
+          "sha256": "27b147c60e7b31fe9084ecf56d3a71574276a66a3a909be683b367fe7babe37c",
+          "bytes": 16307
+        }
+      }
+    }
+  },
+  "files": {
+    "website.pcraft": {
+      "sha256": "93f93c4e419330c946e9aaa657f5c6653aa558de6b1997a6f3eb6ece1f536d7b",
+      "bytes": 462905,
+      "width": 1600,
+      "height": 900
+    },
+    "website.png": {
+      "sha256": "49c1aa5a37d26fc2815c17b551e27aa4740005dd602dc6defcd25ff07da094ab",
+      "bytes": 74605,
+      "width": 1600,
+      "height": 900
+    },
+    "website.webp": {
+      "sha256": "87cf7ab1f87062bf7b16f8608526378374e3f3ff7fd85ad6656b62fc88897417",
+      "bytes": 52778,
+      "width": 1600,
+      "height": 900
+    },
+    "website.recipe.json": {
+      "sha256": "07b477fc75d6142bcb7cf0f8cc5e8d4331dc48a567771fda41df1040d5cd58d1",
+      "bytes": 17263
+    },
+    "social.pcraft": {
+      "sha256": "f7ae5bf2d19126912709ab16b7e472f15586bb4950721808d5a2db3f0f15f487",
+      "bytes": 394636,
+      "width": 1200,
+      "height": 630
+    },
+    "social.png": {
+      "sha256": "14a6fb293b969e6b891e88aea65a54bac755602d996c6fb2de16b9c52a2c3e93",
+      "bytes": 53945,
+      "width": 1200,
+      "height": 630
+    },
+    "social.webp": {
+      "sha256": "b6dfb8221eab980b596e75e23a02de02471592eefdb7eb6b187e0e35b3968a7c",
+      "bytes": 39482,
+      "width": 1200,
+      "height": 630
+    },
+    "social.recipe.json": {
+      "sha256": "fc62a9f1a67a2342add6d45bbb02eb6a45171ab58405d0a63c7e937838cae629",
+      "bytes": 16119
+    },
+    "square.pcraft": {
+      "sha256": "2e0c0f8290940e11207a19b81e12177a032d825521af4e9622c1f9f93fea7193",
+      "bytes": 422690,
+      "width": 1080,
+      "height": 1080
+    },
+    "square.png": {
+      "sha256": "6c2f00c416c5897ad2d20d9136ab8d82bb7d637b0075e2e72e18992e8032752a",
+      "bytes": 63895,
+      "width": 1080,
+      "height": 1080
+    },
+    "square.webp": {
+      "sha256": "b0f1a682ec1981c11279db8c20fe90bda6fa3a53d17dc3103da115d551e9e287",
+      "bytes": 46318,
+      "width": 1080,
+      "height": 1080
+    },
+    "square.recipe.json": {
+      "sha256": "27b147c60e7b31fe9084ecf56d3a71574276a66a3a909be683b367fe7babe37c",
+      "bytes": 16307
+    },
+    "loomwell.aco": {
+      "sha256": "59f2aa3a5629b5cb7d0fa51ab8df9b77bfc05fbb065cd0d91ecd7542255b0481",
+      "bytes": 234
+    }
+  },
+  "raster_export_notes": [
+    "PNG/WebP flatten layers; .pcraft preserves editable layers.",
+    "WebP omits print-resolution metadata. WebP output is lossless."
+  ],
+  "publication_status": "Original brand template; no customer data or performance claim"
+}
